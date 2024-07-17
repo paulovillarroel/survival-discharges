@@ -15,8 +15,8 @@ grd_2022 <- read_delim("raw-data/GRD_PUBLICO_EXTERNO_2022.txt",
   janitor::clean_names()
 
 # Delete large files
-file.remove("project-03/raw-data/GRD_PUBLICO_EXTERNO_2022.zip")
-file.remove("project-03/raw-data/GRD_PUBLICO_EXTERNO_2022.txt")
+file.remove("raw-data/GRD_PUBLICO_EXTERNO_2022.zip")
+file.remove("raw-data/GRD_PUBLICO_EXTERNO_2022.txt")
 
 # Read ICE-10 codes
 icd_10 <- openxlsx::read.xlsx("raw-data/CIE-10.xlsx") |>

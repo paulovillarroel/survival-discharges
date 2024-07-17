@@ -38,7 +38,7 @@ The `surv.median.line = "hv"` argument adds a horizontal-vertical line to the me
 ## Output
 The output is a plot that displays the survival curve for the dataset provided, with a line indicating the median survival time.
 
-![Survival Curve](plots\survival-1.png)
+![Survival Curve](plots/survival-1.png)
 
 
 

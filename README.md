@@ -28,10 +28,8 @@ Here is an example of how to create the plot:
 library(survival) 
 library(survminer)
 
-Fit your survival model (this part of the code will depend on your specific dataset and survival analysis)
-For example:
 fit <- survfit(Surv(time, status) ~ 1, data = malignant_neoplasms_deceased)
-Plot the survival curve
+
 ggsurvplot(fit, data = malignant_neoplasms_deceased, surv.median.line = "hv")
 ```
 
